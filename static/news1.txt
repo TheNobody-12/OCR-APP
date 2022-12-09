@@ -1,0 +1,37 @@
+@timesgroup.com
+Ahmedabad: A faculty
+member at Ahmedabad
+University has developed a
+method to identify indivi-
+. dual crocodiles based on
+aerial images, which can be
+used to understand croco-
+• diles' habitats and migra-
+. tion patterns.
+Ratna Ghosal, an assi-
+stant professor at the uni-
+versity, was co-author of
+the paper 'Identification of
+free-rangingmuggercroco-
+diles by applying deep lear-
+ning methods on UAV ima-
+gery', which was recently
+published in the Elsevier
+. journal Ecological Infor-
+matics.
+"The biometric tool
+identifies mugger crocodi-
+les or marsh crocodiles ba-
+sed on the pattern of their
+bony external plate, known
+as scute. Each crocodile has
+a unique pattern which can
+be identified by artificial
+intelligence (Al). We have
+so far developed a library of
+143 crocodiles in three dif-
+ferent habitats - Kutch,
+Anand and Vadodara di9
+tricts. " Ghosal told TOI.
+"The library can be ex-
+panded by drone images

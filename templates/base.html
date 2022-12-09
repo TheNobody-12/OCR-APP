@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>AI Labs</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{url_for('static',filename='/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css')}}">
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+  <script src="{{url_for('static',filename='/bootstrap-5.2.0-beta1-dist/bootstrap.min.js')}}"></script>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{{url_for('static',filename='/assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='/assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='/assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static',filename='/assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="{{url_for('static',filename='/assets/favicon.ico')}}" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="{{url_for('static',filename='/js/all.js')}}" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="{{url_for('static',filename='/css/styles.css')}}" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="{{url_for('static',filename='/css/style1.css')}}" rel="stylesheet">
+</head>
+
+<body>
+                    <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="/">AI Labs</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                        <!-- <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li> -->
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="/templates/index">Simulator</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        {% block body %}
+        
+        {% endblock body %}
+        <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-links">
+                        <br>
+                        <h4>&emsp;&ensp;Useful Links</h4><br>
+                        <ol>
+                            <i class="bx"></i> <a href="#hero">Home</a><br><br>
+                            <i class="bx"></i> <a href="#about">About us</a><br><br>
+                            <!--<li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+                        </ol>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 footer-info">
+                        <br><br><br><br>
+                        <h3>About AI Labs</h3>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <br>
+                        <h4>Contact Us</h4><br>
+                        <p>
+                            Knowledge Corridor<br>
+                            Raisan Village<br>
+                            Gandhinagar - 382007<br><br>
+   
+                        </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </footer><!-- End Footer -->
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+        <i class="bi bi-arrow-up-short"></i></a>
+    <!--  Vendor JS Files -->
+    <script src="{{url_for('static',filename='/assets/vendor/purecounter/purecounter.js')}}"></script>
+    <script src="{{url_for('static',filename='/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+    <script src="{{url_for('static',filename='/assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+    <script src="{{url_for('static',filename='/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
+    <script src="{{url_for('static',filename='/assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+    <script src="{{url_for('static',filename='/assets/vendor/waypoints/noframework.waypoints.js')}}"></script>
+    <script src="{{url_for('static',filename='/assets/vendor/php-email-form/validate.js')}}"></script>
+
+    <!-- Template Main JS File -->
+    <script src="{{url_for('static',filename='/assets/js/main.js')}}"></script>
+    <!-- Bootstrap core JS-->
+    <script src="{{url_for('static',filename='/js/bootstrap.bundle.min.js')}}"></script>
+    <!-- Core theme JS-->
+    <script src="{{url_for('static',filename='/js/scripts.js')}}"></script>
+</body>
+
+</html>
