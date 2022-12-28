@@ -19,3 +19,24 @@ usage. But manually entering the data can be tedious work. So to solve this prob
 Optical Character Recognition technique, which is widely used to detect handwritten cursive text. 
 We need this technology because if the data entered is misinterpreted by humans it can lead to 
 failure or loss to the industry.
+
+## Quick Start
+- Clone this repository
+  ` git clone https://github.com/akshitagupta15june/Face-X.git`
+
+- Install  python version 3.9 or higher version
+
+- Install Virtual Environment using Pip in command line.
+  ` pip install virtualenv`
+
+- Create a Virtual Environment in command line.
+  `  python<version> -m venv <virtual-environment-name>`
+
+- Activate the Environment in command line.
+  ` .\<virtual-environment-name>\Scripts\activate`
+
+- In activated environment, install all python dependencies.
+  ` pip install -r requirements.txt`
+
+- Run code file using below command.
+` python app.py`
