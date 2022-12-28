@@ -39,4 +39,4 @@ failure or loss to the industry.
   ` pip install -r requirements.txt`
 
 - Run code file using below command.
-` python app.py`
+  ` python app.py`
