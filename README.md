@@ -1,8 +1,11 @@
 # OCR-APP
 
+![image](https://user-images.githubusercontent.com/75840118/209801047-fec41bcc-fd83-4fb6-9cf2-d6564484033f.png)
+
+#### **This project was made for Future Ready Talent Internship 2022
 ## Problem Statement
 In the factory floor, the Engineer enters data on the sheet. This sheet at the end of the repair cycle, 
-manufacturing process, etc. is manually entered into the database. This manual process is timeconsuming and repetitive. Currently, there are OCR technologies that do not perform well with 
+manufacturing process, etc. is manually entered into the database. This manual process is timeconsuming and repetitive. Currently, there are OCR technologies that do not perform well with 
 Cursive Handwritten data. Build a Deep learning OCR and Azure services that which can work with Cursive 
 handwritten data. Since each individual has a different handwriting style. There should be a 
 mechanism to collect data from different users (different handwriting styles.) and train the models 
@@ -20,6 +23,7 @@ Optical Character Recognition technique, which is widely used to detect handwrit
 We need this technology because if the data entered is misinterpreted by humans it can lead to 
 failure or loss to the industry.
 
+## [Deployed site](https://frt-ocr-lab.azurewebsites.net/)
 ## Quick Start
 - Clone this repository
   ` git clone https://github.com/TheNobody-12/OCR-APP.git`
