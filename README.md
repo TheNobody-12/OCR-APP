@@ -22,7 +22,7 @@ failure or loss to the industry.
 
 ## Quick Start
 - Clone this repository
-  ` git clone https://github.com/akshitagupta15june/Face-X.git`
+  ` git clone https://github.com/TheNobody-12/OCR-APP.git`
 
 - Install  python version 3.9 or higher version
 
